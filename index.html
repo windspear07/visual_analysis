@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="Content-Language" content="zh-CN"/>
+
+    <title>GA对象可视化分析</title>
+
+    <link href="vender/css/vis.css" rel="stylesheet" type="text/css"/>
+    <link href="./app/css/va.css" rel="stylesheet" type="text/css"/>
+
+    <script type="text/javascript" src="../exampleUtil.js"></script>
+    <script type="text/javascript" src="vender/js/vis.js"></script>
+    <script type="text/javascript" src="vender/js/jquery-1.11.3.min.js"></script>
+    <script src="../../googleAnalytics.js"></script>
+
+    <script type="text/javascript" src="app/js/index.js"></script>
+</head>
+
+<body>
+<div>
+    <select id="obj_type">
+        <option value="person" selected>人</option>
+        <option value="info">信息</option>
+        <option value="clue">线索</option>
+        <option value="other">其他</option>
+    </select>
+    <input id="obj_id" placeholder="请输入分析对象的id">
+    <button id="query_first">开始</button>
+
+    <input type="checkbox" name="i_auto" checked="checked"/>自动布局
+
+    <select id="order_type">
+        <option id="order_type_default" value="0" selected>--选择排序--</option>
+        <option value="circle">网状排序</option>
+        <!--<option value="layer">层次排序</option>-->
+        <option value="theme">主题排序</option>
+        <option value="matrix">阵列排序</option>
+        <option value="center">中心排序</option>
+    </select>
+    <button id="btn_detail">详情</button>
+    <button id="btn_config">配置</button>
+    <button id="btn_help">帮助</button>
+</div>
+
+<div id="main_panel"></div>
+</body>
+</html>

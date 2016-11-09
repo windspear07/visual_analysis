@@ -1,0 +1,42 @@
+{
+  "isFound": true,
+  "list":
+  [
+    {
+      "id": "1",
+      "type": "person1",
+      "title": "这是title字段！<br>more info is here.1",
+      "label": "#",
+      "image": "./test/img/qqjiamo09.jpg",
+      "shape": "image",
+      "detail_url": "http:///www.qq.com",
+      "x": 0,
+      "y": 0,
+      "analysised" : false
+    },
+    {
+      "id": "2",
+      "type": "person1",
+      "title": "这是title字段！<br>more info is here.1",
+      "label": "#",
+      "image": "./test/img/qqjiamo09.jpg",
+      "shape": "image",
+      "detail_url": "http:///www.qq.com",
+      "x": 0,
+      "y": 0,
+      "analysised" : false
+    },
+    {
+      "id": "3",
+      "type": "person1",
+      "title": "这是title字段！<br>more info is here.1",
+      "label": "#",
+      "image": "./test/img/qqjiamo09.jpg",
+      "shape": "image",
+      "detail_url": "http:///www.qq.com",
+      "x": 0,
+      "y": 0,
+      "analysised" : false
+    }
+  ]
+}

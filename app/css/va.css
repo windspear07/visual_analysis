@@ -1,0 +1,12 @@
+body {
+    font: 10pt sans;
+}
+
+#main_panel {
+    float: left;
+    width: 1200px;
+    height: 800px;
+    margin: 5px;
+    border: 1px solid lightgray;
+    background-color : #cccccc;
+}
