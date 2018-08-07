@@ -292,8 +292,20 @@ $(function () {
             /// if (!found) {
             data.edges.add({
                 from: selected_node_id,
-                to: id1
+                to: id1,
+                label:'south',
+                arrows:'from'
             });
+
+            data.edges.add({
+                to: selected_node_id,
+                from: id1,
+                label:"enter",
+                arrows:{
+                    to:true
+                }
+            });
+
             /// } else {
             ///     ///edges already exists
             ///     console.log('edges exists->', selected_node_id, id1);
